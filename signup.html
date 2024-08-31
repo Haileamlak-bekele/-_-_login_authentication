@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <title>sign up</title>
+</head>
+<body>
+  <section class="hole_cont">
+    <div id="success-message1" style="display: none;">You have successfully registered. Please login to access your account.</div>
+    <div id="error-message1" style="display: none;">This account already exists. Please login or use a different email.</div>
+    
+    <h1>sign up</h1>
+    <p class="text1">create a free account with your Email.</p>
+    
+
+    <form action="#" class="form" id="signForm">
+      
+      <div class="input-box">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" name="fname" placeholder="UserName" class="fname">
+      </div>
+     
+       <div class="input-box">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" name="email" placeholder="Email" title="please fill out this field">
+       </div>
+      
+      <div class="input-box">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" name="password" placeholder="Password" title="please fill out this field">
+      </div>
+      <div class="input-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <textarea name="address" id="" placeholder="Address.." rows="3" cols="29" title="please fill out this field"></textarea>
+      </div>
+      <div class="input-box">
+        <i class="fa-solid fa-phone"></i>
+        <input type="number" name="phone" placeholder="Mobile Number" class="phone" title="please fill out this field">
+      </div>
+      
+      <button type="submit" value="submit">sign up</button>
+
+    </form>
+    <div class="foot">
+      <p>Have an account?</p>
+      <a href="login.html">Log in</a> 
+    </div>
+  </section> 
+
+  <script src="signUp.js"></script>
+</body>
+</html>
